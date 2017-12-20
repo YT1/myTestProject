@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>hello world</title>
+    <link href="./css/mui.min.css" rel="stylesheet" />
+	<link href="./css/style.css" rel="stylesheet" />
+	<link href="./css/iconfont.css" rel="stylesheet" />
+    <script type="text/javascript">
+    	function helloworld(){
+			alert("5555555")
+		}
+   		document.addEventListener('plusready', function(){
+   			alert("welcome to Html5plus!");
+   		});
+    </script>
+</head>
+<body>
+	<button onclick="helloworld()">click me!</button> 
+	<nav class="mui-bar nui-bar-tab">
+		<a id="defaultTab" class="nui-tab-item mui-active" href="./pages/home.html">
+			<span class="mui-icon iconfont icon-shouye"></span>
+			<span class="mui-tab-label">首页</span>
+		</a>
+		<a id="mui-tab-item" class="nui-tab-item mui-active" href="./pages/life.html">
+			<span class="mui-icon iconfont icon-weibiaoti-"></span>
+			<span class="mui-tab-label">生活</span>
+		</a>
+		<a id="mui-tab-item" class="nui-tab-item mui-active" href="./pages/my.html">
+			<span class="mui-icon iconfont icon-personal-copy"></span>
+			<span class="mui-tab-label">个人</span>
+		</a>
+	</nav>
+	
+</body>
+</html>
